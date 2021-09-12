@@ -1,0 +1,30 @@
+{
+  "type": "module",
+  "name": "kb2abot-plugin-example",
+  "version": "1.0.0",
+  "description": "Example plugin for kb2abot",
+  "main": "index.js",
+  "scripts": {
+    "fix": "eslint --fix ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kb2ateam/kb2abot-plugin-example.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kb2ateam/kb2abot-plugin-example/issues"
+  },
+  "homepage": "https://github.com/kb2ateam/kb2abot-plugin-example#readme",
+  "devDependencies": {
+    "@babel/eslint-parser": "^7.15.4",
+    "babel-eslint": "^10.1.0",
+    "eslint": "^7.32.0",
+    "nodemon": "^2.0.12"
+  },
+  "dependencies": {
+    "es-dirname": "^0.1.0",
+    "vm2": "^3.9.3"
+  }
+}
